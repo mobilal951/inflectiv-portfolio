@@ -1,0 +1,11 @@
+node_modules
+.next
+.env.local
+.env.vercel
+.env*.local
+.vercel
+.ga-credentials.json
+cookies.txt
+*.tsbuildinfo
+promo-code-feature
+VALIDATION.md
