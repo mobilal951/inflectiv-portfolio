@@ -59,10 +59,10 @@ export default function PasswordPage() {
       >
         <div className="relative w-28 h-28 md:w-44 md:h-44 animate-[float_4s_ease-in-out_infinite]">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-500 via-purple-500 to-orange-400 rounded-full blur-xl opacity-60 group-hover:opacity-80 transition-opacity" />
-          <div className="absolute inset-3 bg-gradient-to-br from-blue-600 via-purple-600 to-orange-500 rounded-full shadow-2xl flex flex-col items-center justify-center text-white text-center p-4 ring-4 ring-white/30">
-            <span className="text-[10px] uppercase tracking-widest opacity-80">Demo password</span>
-            <span className="font-mono text-sm font-bold mt-1 break-all leading-tight">inflectiv_stats26</span>
-            <span className="text-[10px] opacity-80 mt-1">tap to fill ↓</span>
+          <div className="absolute inset-3 bg-gradient-to-br from-blue-600 via-purple-600 to-orange-500 rounded-full shadow-2xl flex flex-col items-center justify-center text-white text-center p-2 md:p-4 ring-4 ring-white/30 overflow-hidden">
+            <span className="text-[8px] md:text-[10px] uppercase tracking-widest opacity-80 leading-none">Demo password</span>
+            <span className="font-mono text-[10px] md:text-sm font-bold mt-1 break-all leading-tight">inflectiv_stats26</span>
+            <span className="text-[8px] md:text-[10px] opacity-80 mt-1 leading-none">tap to fill ↓</span>
           </div>
         </div>
       </button>
