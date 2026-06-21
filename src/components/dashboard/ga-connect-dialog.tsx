@@ -116,31 +116,13 @@ export function GAConnectDialog() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <button
-          className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all duration-200 ${
-            isGAConnected
-              ? "bg-emerald-50 text-emerald-700 hover:bg-emerald-100"
-              : "bg-amber-50 text-amber-700 hover:bg-amber-100"
-          }`}
-        >
-          {isLoading ? (
-            <Loader2 className="h-4 w-4 animate-spin" />
-          ) : isGAConnected ? (
-            <div className="p-1.5 bg-emerald-100 rounded-lg">
-              <Wifi className="h-4 w-4" />
-            </div>
-          ) : (
-            <div className="p-1.5 bg-amber-100 rounded-lg">
-              <WifiOff className="h-4 w-4" />
-            </div>
-          )}
+        <button className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all duration-200 bg-amber-50 text-amber-700 hover:bg-amber-100 ring-1 ring-amber-200">
+          <div className="p-1.5 bg-amber-100 rounded-lg">
+            <WifiOff className="h-4 w-4" />
+          </div>
           <div className="flex-1 text-left">
-            <p className="text-xs font-semibold">
-              {isGAConnected ? "GA Connected" : "Connect GA"}
-            </p>
-            <p className="text-[10px] opacity-70">
-              {isGAConnected ? "Live data active" : "Admin sign-in required"}
-            </p>
+            <p className="text-xs font-semibold">Demo data</p>
+            <p className="text-[10px] opacity-70">Synthetic — not live GA</p>
           </div>
         </button>
       </DialogTrigger>
