@@ -54,10 +54,10 @@ export default function PasswordPage() {
         onClick={() => {
           setPassword("inflectiv_stats26");
         }}
-        className="hidden md:block absolute top-10 right-10 z-20 cursor-pointer group"
+        className="absolute top-4 right-4 md:top-10 md:right-10 z-20 cursor-pointer group"
         title="Click to fill the password"
       >
-        <div className="relative w-44 h-44 animate-[float_4s_ease-in-out_infinite]">
+        <div className="relative w-28 h-28 md:w-44 md:h-44 animate-[float_4s_ease-in-out_infinite]">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-500 via-purple-500 to-orange-400 rounded-full blur-xl opacity-60 group-hover:opacity-80 transition-opacity" />
           <div className="absolute inset-3 bg-gradient-to-br from-blue-600 via-purple-600 to-orange-500 rounded-full shadow-2xl flex flex-col items-center justify-center text-white text-center p-4 ring-4 ring-white/30">
             <span className="text-[10px] uppercase tracking-widest opacity-80">Demo password</span>
