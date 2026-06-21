@@ -16,7 +16,7 @@ import { useDashboard } from "./dashboard-context";
 
 // Admin emails - must match ga-credentials.ts
 const ADMIN_EMAILS = [
-  "muhammad.bilal@bigimmersive.com",
+  "admin@bigimmersive.com",
 ];
 
 interface SaveResponse {

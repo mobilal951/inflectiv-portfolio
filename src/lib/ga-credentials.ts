@@ -26,7 +26,7 @@ const IS_VERCEL = process.env.VERCEL === "1";
 
 // Admin email whitelist - only these users can save GA credentials
 export const ADMIN_EMAILS = [
-  "muhammad.bilal@bigimmersive.com",
+  "admin@bigimmersive.com",
   // Add more admin emails here
 ];
 
